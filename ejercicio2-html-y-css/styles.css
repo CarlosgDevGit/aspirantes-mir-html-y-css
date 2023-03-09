@@ -1,0 +1,35 @@
+form {
+    margin: 0 auto;
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 10px 10px 5px 0px rgba(90, 22, 216, 0.75);
+    border-radius: 20px;
+
+
+
+    color: white;
+    
+    gap: 5px;
+
+    font-family: sans-serif;
+}
+
+input, select {
+    padding: 7px;
+
+}
+
+button{
+    padding: 5px 15px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
